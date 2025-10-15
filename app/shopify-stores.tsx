@@ -39,7 +39,7 @@ const ShopifyStores = () => {
         </div>
 
         <p className="mt-4 text-lg font-normal  text-neutral-800 max-w-lg text-center mx-auto">
-          Whether you’re a small business just starting out or an enterprise looking to scale, our affordable packages make it easy to launch your digital marketing journey.
+          Whether you&apos;re a small business just starting out or an enterprise looking to scale, our affordable packages make it easy to launch your digital marketing journey.
         </p>
         <div className="md:flex items-center justify-center  px-10 ">
           {stores.map((store, index) => (
