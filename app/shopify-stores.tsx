@@ -2,7 +2,9 @@
 
 import Image from "next/image";
 
-const stores = [
+type Store = { image: string; quote: string; name: string };
+
+const stores: Store[] = [
   // {
   //   image: "/images/image2.png",
   //   quote: "codecraft showed us to get started, what to do, and how to do it.",

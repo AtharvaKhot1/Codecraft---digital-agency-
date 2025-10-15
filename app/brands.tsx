@@ -9,7 +9,7 @@ const font = Lora({
   weight: ["400"],
 });
 
-const logos = [
+const logos: { image: string }[] = [
   // {
   //   image: "/logo/logoipsum-248.svg",
   // },
@@ -40,7 +40,7 @@ const Brands = () => {
         </div>
 
         <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto">
-          Whether you're a small business just starting out or an established enterprise, our goal is to make digital marketing accessible and affordable for everyone. We believe every business deserves a chance to grow online, and we're here to support you every step of the way.
+          Whether you&apos;re a small business just starting out or an established enterprise, our goal is to make digital marketing accessible and affordable for everyone. We believe every business deserves a chance to grow online, and we&apos;re here to support you every step of the way.
         </p>
 
         <div className="grid grid-cols-3  items-center justify-center  mx-auto md:w-3/5 cursor-pointer">

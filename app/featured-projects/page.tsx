@@ -5,7 +5,7 @@ import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 
-export function AppleCardsCarouselDemo() {
+function AppleCardsCarouselDemo() {
   const cards = data.map((card, index) => (
     <Card key={card.src} card={card} index={index} layout={true} heightClass="h-[21rem]" widthClass="w-[34rem]" />
   ));
