@@ -24,7 +24,7 @@ const FAQS = () => {
     <AccordionItem value="item-1">
       <AccordionTrigger>What is CodeCraft?</AccordionTrigger>
       <AccordionContent>
-        CodeCraft is a full fledge marketing agency that specializes in branding, web design, and digital marketing.
+        CodeCraft is a full-fledged web development agency specializing in building impactful, fast, and affordable websites.
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-2">
