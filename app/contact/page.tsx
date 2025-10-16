@@ -46,7 +46,7 @@ const FormSchema = z.object({
   job_title: z.string(),
   company_name: z.string(),
   help: z.enum([
-    "Evaluate codecraft for my company",
+    "Evaluate CodeCraft for my company",
     "Learn More",
     "Get a Quote",
     "Other",
@@ -67,7 +67,7 @@ type FormValues = {
   email: string;
   job_title: string;
   company_name: string;
-  help: "Evaluate codecraft for my company" | "Learn More" | "Get a Quote" | "Other";
+  help: "Evaluate CodeCraft for my company" | "Learn More" | "Get a Quote" | "Other";
   services:
     | "Website Develoment"
     | "Social Media Marketing"
@@ -88,7 +88,7 @@ export default function ContactForm() {
   const whatsappNumber = "917719917529";
 
   const buildWhatsAppUrl = (data: z.infer<typeof FormSchema>) => {
-    const message = `Hello Codecraft,%0A%0A` +
+    const message = `Hello CodeCraft,%0A%0A` +
       `Name: ${data.first_name} ${data.last_name}%0A` +
       `Email: ${data.email}%0A` +
       `Company: ${data.company_name}%0A` +
@@ -150,7 +150,7 @@ export default function ContactForm() {
               text-gray-300
                     "
           >
-            Let&apos;s talk about how codecraft can help your team work better.
+            Let&apos;s talk about how CodeCraft can help your team work better.
           </div>
 
           <div className="bg-[#f6f5f4] md:w-4/5 space-y-6 p-4 rounded-2xl my-4 hidden md:flex md:flex-col">
@@ -307,8 +307,8 @@ export default function ContactForm() {
                       </FormControl>
                       <SelectContent>
                         <div className="flex gap-4">
-                          <SelectItem value="Evaluate codecraft for my company">
-                            Evaluate codecraft for my company
+                          <SelectItem value="Evaluate CodeCraft for my company">
+                            Evaluate CodeCraft for my company
                           </SelectItem>
                         </div>
                         <SelectItem value="Learn More">Learn More</SelectItem>
@@ -349,8 +349,8 @@ export default function ContactForm() {
                   />
                 </div>
                 <div className="text-xs font-light  md:w-3/4 mb-1 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-                  I agree to codecraft&apos; sending marketing communications related
-                  to codecraft
+                  I agree to CodeCraft&apos; sending marketing communications related
+                  to CodeCraft
                 </div>
               </div>
 

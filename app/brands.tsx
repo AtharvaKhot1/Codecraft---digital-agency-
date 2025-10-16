@@ -65,12 +65,12 @@ const Brands = () => {
           )}
         >
           &quot;We got rid of nearly a dozen different tools because of what
-          codecraft does for us.&quot;
+          CodeCraft does for us.&quot;
         </div> */}
 
         {/* <div className="items-center flex justify-center flex-col text-white">
           <Image
-            src="/images/Logo codecraft.png"
+            src="/images/Logo CodeCraft.png"
             alt="logo"
             width={600}
             height={600}

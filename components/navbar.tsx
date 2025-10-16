@@ -39,7 +39,7 @@ const Navbar = ({
           <Link className="cursor-pointer" href="/">
             <Image
               priority
-              src="/logo/Logo codecraft.png"
+              src="/logo/Logo CodeCraft.png"
               alt="Logo"
               width={80}
               height={50}
