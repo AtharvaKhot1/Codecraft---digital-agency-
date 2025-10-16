@@ -39,11 +39,11 @@ const Navbar = ({
           <Link className="cursor-pointer" href="/">
             <Image
               priority
-              src="/logo/Logo CodeCraft.png"
+              src="/logo/Logo codecraft.png"
               alt="Logo"
               width={80}
               height={50}
-              className="w-10 h-10 md:w-[8.5rem] md:h-14"
+              className="w-25 h-10 md:w-[8.5rem] md:h-14"
             />
           </Link>
         </div>
